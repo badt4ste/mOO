@@ -1,0 +1,6 @@
+# Scan result folders
+scan_results_*/
+
+# Target files
+targets.txt
+targets_deduped.txt
