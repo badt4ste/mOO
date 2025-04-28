@@ -39,6 +39,7 @@ Before running MOO, ensure the following tools are installed and available in yo
 * **`nmap`**: The network scanner. **Crucially, the script uses `sudo nmap` for some operations (like UDP scans). You need `sudo` privileges, potentially configured for passwordless execution of `nmap`, or you must run the entire MOO script using `sudo`.**
 * **`jq`**: A command-line JSON processor (used for parsing `testssl.sh` output).
 * **`testssl.sh`**: The SSL/TLS scanner (required unless using `--skip-testssl`). Download it from [https://testssl.sh/](https://testssl.sh/).
+* **`flock` (`brew install flock`) MacOS doesn't come preloaded with the linux `flock` utility.ß
 
 ## Installation
 
