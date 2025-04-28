@@ -1,6 +1,7 @@
 # mostlyObviousOSINT (MOO) - Automated OSINT and Reconnaissance Scanner
 ### aka  MacOsOSINT
-**HUGE** thank you to @RyenNelsen for making this thing work. If you like this, buy that man a drink!
+
+**HUGE** thank you to [@RyenNelsen](https://github.com/RyenNelsen) for making this thing work. If you like this, buy that man a drink!
 
 MOO is a Bash script designed to automate basic Open Source Intelligence (OSINT) gathering and network reconnaissance tasks against a list of targets (domain names or IP addresses). It orchestrates several common tools like `nslookup`, `nmap`, and `testssl.sh` to provide a consolidated report.
 
